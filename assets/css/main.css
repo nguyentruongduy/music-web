@@ -44,8 +44,6 @@ html {
   display: none;
 }
 
-.videoBg-container {
-}
 
 .videoBg-container img {
   position: absolute;
@@ -234,6 +232,7 @@ position: absolute;
 
 .progress {
   width: 50%;
+  appearance: none;
   -webkit-appearance: none;
   height: 6px;
   background: #d3d3d3;
