@@ -1,0 +1,54 @@
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+   .playlist-bars {
+      display: block;
+      position: absolute;
+      color: #fff;
+      font-size: 2rem;
+      top: 0;
+      padding: 5px 20px 0;
+   }
+
+   .videoBg-container img {
+      display: flex;
+   }
+
+   .scrolling-text-container {
+      width: 100%;
+   }
+
+   .playlist {
+    display: none;
+    position: absolute;
+    left: 60px;
+    background-color: #121212;
+    overflow-x: auto;
+    height: 80vh;
+    border-radius: 10px;
+    z-index: 2;
+   }
+
+   .btn-volume {
+    display: none;
+   }
+
+   .dashboard {
+    padding: 0;
+   }
+
+   #videoBg {
+    width: 100vw;
+    height: 100vh;
+   }
+}
+
